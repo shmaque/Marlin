@@ -2053,9 +2053,9 @@
 /**
  * Add a bed leveling sub-menu for ABL or MBL.
  * Include a guided procedure if manual probing is enabled.
+ * (Note: needs to be disabled for Jyers, Creality, etc...)
  */
 #define LCD_BED_LEVELING
-//TODO Previously disabled LCD_BED_LEVELING for Jyers - disable?
 
 #if ENABLED(LCD_BED_LEVELING)
   #define MESH_EDIT_Z_STEP  0.025 // (mm) Step size while manually probing Z axis.
